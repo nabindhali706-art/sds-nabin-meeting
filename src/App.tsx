@@ -8,7 +8,8 @@ import {
   useRoomContext
 } from "@livekit/components-react";
 import { supabase, isSupabaseConfigured } from "./lib/supabase";
-import { Language, t } from "./lib/i18n";
+import { t } from "./lib/i18n";
+import type { Language } from "./lib/i18n";
 import type { Meeting } from "./types";
 
 type Session = { accessToken: string; serverUrl: string };
